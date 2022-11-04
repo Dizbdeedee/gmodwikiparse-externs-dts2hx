@@ -1,3 +1,5 @@
+package warcio;
+
 extern class WARCResult {
 	function readFully():js.lib.Promise<Null<Dynamic>>;
 

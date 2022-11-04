@@ -1,3 +1,4 @@
+package warcio;
 @:jsRequire("warcio", "WARCParser")
 extern class WARCParser {
 	function new(source:Dynamic,?opt:Dynamic);
